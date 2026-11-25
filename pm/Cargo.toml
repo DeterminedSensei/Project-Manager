@@ -1,0 +1,19 @@
+[package]
+name = "pm-core"
+version = "0.2.0"
+description = "Shared logic, command-line tool and MCP server for Project Manager"
+edition = "2021"
+
+[lib]
+name = "pm_core"
+path = "src/lib.rs"
+
+[[bin]]
+name = "pm"
+path = "src/main.rs"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["preserve_order"] }
+chrono = "0.4"
+base64 = "0.22"
