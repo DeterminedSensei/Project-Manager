@@ -314,3 +314,5 @@ src-tauri/src/
   settings.rs            settings.json; library via pm-core
 docs/screenshots/        images used in this README (demo data, not real projects)
 ```
+
+Note: This project was created using claude, and I have only worked with Claude on this so far. Thus you might notice that this software has much more support for claude than for other AIs. Feel free to fork this project and to extend the code. 
